@@ -1,4 +1,5 @@
-AngularBootstrap
-================
 
-An angular bootstrap template with tutorial examples from Angularjs.org.
+npm install bower
+bower install angular                                                                                                                                                         
+bower install jquery                                                                                                                                                          
+bower install --save http://twitter.github.com/bootstrap/assets/bootstrap.zip 
