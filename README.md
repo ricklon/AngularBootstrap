@@ -1,4 +1,4 @@
-!Angular and Bootstrap Template and examples
+Angular and Bootstrap Template and examples
 ====
 
 An angular bootstrap template with tutorial examples from Angularjs.org. 
