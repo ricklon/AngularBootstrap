@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="project">
   <head>
     <title>Backend Angualr tutorial with Angular Bootstrap Template 001</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,9 @@
     <link href="../bower_components/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href="../bower_components/css/site.css" rel="stylesheet" media="screen" />
     <script src="../bower_components/angular/angular.min.js"></script>
+   <script src="https://cdn.firebase.com/v0/firebase.js"></script>
+    <script src="../bower_copmonents/angularFire/angularFire.js"></script>
+    <script src="project.js"></script>
 
   </head>
   <body>
@@ -25,8 +28,11 @@
     </ul>
   </div>
 </div>
-  
-    <!-- Load scripts at bottoom of page -->
+    <!-- page content -->
+ <h2>JavaScript Projects</h2>
+    <div ng-view></div>
+    <!-- page end content -->
+    <!-- Load scripts at bottom of page -->
     <script src="../bower_components/jquery/jquery.min.js"></script>
     <script src="../bower_components/bootstrap/js/bootstrap.min.js"></script>
     <script src="../bower_components/js/site.js"></script>
